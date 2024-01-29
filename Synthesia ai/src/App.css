@@ -11,7 +11,9 @@
   --main-colour: #D7FE63;
   --text-other: #465b52;
   --overlay: rgba(0,0,0,.3);
-  --bg-color: #1a202C
+  --bg-color: #1a202C;
+  --text-grey: #D9D9D9;
+
 }
 
 body{
