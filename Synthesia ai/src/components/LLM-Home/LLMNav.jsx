@@ -13,7 +13,7 @@ const  LLMNav = () => {
         <nav className= "Navbar p-6">
           <div className="container bg-transparent mx-auto flex flex-row content-around justify-around items-center">
             {/* logo */}
-            <div className="flex items-center text-5xl space-x-3">
+            <div className="flex items-center  me-5 space-x-3">
                         <img src="../src/assets/Group 72.png" className="w-15 h-15 " />
             </div>
             {/* Navigation Links */}
@@ -49,15 +49,13 @@ const  LLMNav = () => {
               </div>
             )}
 
-            <div className="flex items-center space-x-4 ml-auto">
-                <div className="flex flex-row text-white">
+            <div className="flex items-center space-x-4 ml-auto  rounded-3xl outline-gray-900 bg-slate-800 p-5">
                     <FontAwesomeIcon icon={faBell}/>
                     <br />
                     <FontAwesomeIcon icon={faGear} />
-                </div>
             <div className="flex items-center">
                 <img
-                src="/path/to/person.jpg"
+                src="../src/assets/person.png"
                 alt="Person"
                 className="h-8 w-8 rounded-full object-cover"
                 />
@@ -66,9 +64,7 @@ const  LLMNav = () => {
           </div>
         </nav>
       </header>
-      <Routes>
-        <Route path='/' element={<LLMHome/>} />    
-      </Routes>
+      
     </>
   );
 };
